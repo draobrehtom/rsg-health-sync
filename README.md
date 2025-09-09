@@ -1,3 +1,5 @@
+(arhived)- fixed by pr [here](https://github.com/Rexshack-RedM/rsg-medic/pull/34) and [here](https://github.com/Rexshack-RedM/rsg-appearance/pull/46)
+
 # RSG Health Sync
 
 This script fixes an issue where using `/loadskin` (from **rsg-appearance**) resets the player's health to 100. It also ensures health is properly restored when a player rejoins the server.
