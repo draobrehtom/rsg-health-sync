@@ -12,7 +12,7 @@ function init()
         prevHealth = health
         health = GetEntityHealth(PlayerPedId())
         if health ~= prevHealth then
-            LocalPlayer.state:set('health', health, true)
+            -- LocalPlayer.state:set('health', health, true) -- Not needed if rsg-medic version >= 2.1.3
             TriggerServerEvent('RSGCore:Server:SetMetaData', 'health', health)
             print('Sync health')
         end
