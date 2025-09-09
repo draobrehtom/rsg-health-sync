@@ -10,3 +10,5 @@ This script fixes an issue where using `/loadskin` (from **rsg-appearance**) res
 - Monitors the player's health every second
 - Updates health in LocalPlayer.state and sends it to the server via metadata
 - Restores correct health on login using saved metadata
+
+It's a temporary solution and should be removed when issue will be fixed RSG codebase. More details in Discord discussion thread [here](https://discord.com/channels/914413479157448744/1414593626255659101).
